@@ -162,7 +162,7 @@ export default function App() {
 
       {/* Bottom action buttons */}
       <div className="fixed bottom-0 left-0 right-0 z-30 pointer-events-none">
-        <div className="max-w-md mx-auto px-4 pb-5 flex items-end justify-end gap-3">
+        <div className="max-w-md mx-auto px-4 pb-5 pb-safe flex items-end justify-end gap-3">
           <button
             onClick={() => setTestPanelOpen(true)}
             className="pointer-events-auto w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-400 hover:text-amber-500 transition border border-gray-100"
